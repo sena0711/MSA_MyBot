@@ -1,0 +1,78 @@
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Bot Application1.dll.config
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Bot Application1.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Bot Application1.pdb
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Autofac.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Chronic.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Builder.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Connector.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.Rest.ClientRuntime.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.WindowsAzure.Configuration.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Newtonsoft.Json.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.Net.Http.Formatting.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.Web.Http.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.Web.Http.WebHost.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Autofac.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Builder.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Connector.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.Rest.ClientRuntime.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Microsoft.WindowsAzure.Configuration.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\Newtonsoft.Json.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.IdentityModel.Tokens.Jwt.pdb
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.Net.Http.Formatting.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.Web.Http.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\System.Web.Http.WebHost.xml
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\ar\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\en\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\es\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\fa\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\fr\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\ja\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\ru\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\obj\Debug\Basic_Stock_Bot.csprojResolveAssemblyReference.cache
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\obj\Debug\Bot Application1.dll
+F:\Programing\BotBuilder\CSharp\Samples\Stock_Bot\Basic_Stock_Bot\obj\Debug\Bot Application1.pdb
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Bot Application1.dll.config
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Bot Application1.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Bot Application1.pdb
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Autofac.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Chronic.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Builder.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Connector.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.Rest.ClientRuntime.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.WindowsAzure.Configuration.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Newtonsoft.Json.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.Net.Http.Formatting.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.Web.Http.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.Web.Http.WebHost.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Autofac.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Builder.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.Bot.Connector.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.Rest.ClientRuntime.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Microsoft.WindowsAzure.Configuration.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\Newtonsoft.Json.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.IdentityModel.Tokens.Jwt.pdb
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.Net.Http.Formatting.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.Web.Http.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\System.Web.Http.WebHost.xml
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\ar\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\en\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\es\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\fa\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\fr\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\ja\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\ru\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\obj\Debug\Basic_Stock_Bot.csprojResolveAssemblyReference.cache
+F:\Programing\MSA_Bot\Basic_Stock_Bot\obj\Debug\Bot Application1.dll
+F:\Programing\MSA_Bot\Basic_Stock_Bot\obj\Debug\Bot Application1.pdb
