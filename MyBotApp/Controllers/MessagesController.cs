@@ -22,9 +22,10 @@ namespace MyBotApp
             if (activity.Type == ActivityTypes.Message)
             {
                 ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+               
+                
                 // Get Stock information, show user.
                 string ReplyStr = await MyBotApp.ObjController.StockController.GetStock(activity.Text);
-
                 // return our reply to the user
                 Activity reply = activity.CreateReply(ReplyStr);
 

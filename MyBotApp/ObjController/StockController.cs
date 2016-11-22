@@ -14,7 +14,7 @@ namespace MyBotApp.ObjController
     {
         public static async Task<string> GetStock(string strStock)
         {
-            string repllyString = string.Empty;
+            string replyString = string.Empty;
             double? stockValue = await StockController.GetStockPriceAsync(strStock);
 
             if (null == stockValue)   // might be a company name rather than a stock ticker name
@@ -30,14 +30,14 @@ namespace MyBotApp.ObjController
             // return our reply to the user
             if (null == stockValue)
             {
-                repllyString = string.Format("Stock {0} is not valid", strStock.ToUpper());
+                replyString = string.Format("Stock {0} is not valid", strStock.ToUpper());
             }
             else
             {
-                repllyString = string.Format("Stock: {0}, Value: {1}", strStock.ToUpper(), stockValue);
+                replyString = string.Format("Stock: {0}, Value: {1}", strStock.ToUpper(), stockValue);
             }
 
-            return repllyString;
+            return replyString;
         }
 
         private static async Task<double?> GetStockPriceAsync(string symbol)
@@ -53,8 +53,8 @@ namespace MyBotApp.ObjController
             }
             string line = csv.Split('\n')[0];
             string price = line.Split(',')[1];
-
             double result;
+
             if (double.TryParse(price, out result))
                 return result;
 
@@ -63,7 +63,7 @@ namespace MyBotApp.ObjController
 
         private static async Task<string> GetStockTickerName(string strCompanyName)
         {
-            string repllyString = string.Empty;
+            string replyString = string.Empty;
             string url = $"http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={strCompanyName}&region=1&lang=en&callback=YAHOO.Finance.SymbolSuggest.ssCallback";
             string sJson = string.Empty;
             using (WebClient client = new WebClient())
@@ -88,13 +88,13 @@ namespace MyBotApp.ObjController
                 {
                     if (r.exch == "NAS")
                     {
-                        repllyString = r.symbol;
+                        replyString = r.symbol;
                         break;
                     }
                 }
             }
 
-            return repllyString;
+            return replyString;
         }
 
         // String retrurned from StockController Company name lookup contains more than raw JSON
