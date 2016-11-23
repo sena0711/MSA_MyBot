@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MassiveKittens" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^F:\\Programing\\MSA_MyBot\\MyBotApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^F:\\Programing\\MSA_MyBot\\MyBotApp\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>
