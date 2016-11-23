@@ -1,0 +1,39 @@
+F:\Programing\MSA_MyBot\MyBotApp\bin\Bot Application1.dll.config
+F:\Programing\MSA_MyBot\MyBotApp\bin\Bot Application1.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Bot Application1.pdb
+F:\Programing\MSA_MyBot\MyBotApp\bin\Autofac.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Chronic.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.Bot.Builder.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.Bot.Connector.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.Rest.ClientRuntime.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.WindowsAzure.Configuration.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Newtonsoft.Json.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.Net.Http.Formatting.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.Web.Http.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.Web.Http.WebHost.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\Autofac.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.Bot.Builder.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.Bot.Connector.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.Rest.ClientRuntime.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\Microsoft.WindowsAzure.Configuration.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\Newtonsoft.Json.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.Net.Http.Formatting.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.Web.Http.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\System.Web.Http.WebHost.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\ar\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\en\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\es\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\fa\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\fr\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\ja\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\ru\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+F:\Programing\MSA_MyBot\MyBotApp\obj\Release\Bot Application1.dll
+F:\Programing\MSA_MyBot\MyBotApp\obj\Release\Bot Application1.pdb
+F:\Programing\MSA_MyBot\MyBotApp\obj\Release\MyBotApp.csprojResolveAssemblyReference.cache
