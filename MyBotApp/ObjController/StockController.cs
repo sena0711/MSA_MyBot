@@ -3,44 +3,107 @@ using System.Collections.Generic;
 using System.Linq;
 //using System.Web;
 using System.Net;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
+using System.Web.Http;
+using System.Text;
 using Newtonsoft.Json;
 using MyBotApp.Object1;
 
+
 namespace MyBotApp.ObjController
-{
+{ 
     class StockController
     {
         public static async Task<string> GetStock(string strStock)
         {
             string replyString = string.Empty;
-            double? stockValue = await StockController.GetStockPriceAsync(strStock);
-            string stockName= strStock.ToUpper();
-            if (null == stockValue)   // might be a company name rather than a stock ticker name
+
+            string strsymbol;
+             string strname;
+            string exch;
+          
+            /////////////////////////////////////////
+            string url = $"http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={strStock}&region=1&lang=en&callback=YAHOO.Finance.SymbolSuggest.ssCallback";
+            string x = string.Empty;
+            double? stockValue = null;
+            string stockName;
+            using (WebClient client = new WebClient())
             {
-                string strTicker = await GetStockTickerName(strStock);
-                if (string.Empty != strTicker)
+                x = await client.DownloadStringTaskAsync(url).ConfigureAwait(false);
+            }
+            x = StripJsonString(x);
+            StockObj.YhooCompanyLookup lookup = null;
+            try
+            {
+                lookup = JsonConvert.DeserializeObject<StockObj.YhooCompanyLookup>(x);
+            }
+            catch (Exception e){}
+
+            if (null != lookup)
+            {
+
+                foreach (StockObj.lResult r in lookup.ResultSet.Result)
                 {
-                    stockValue = await StockController.GetStockPriceAsync(strTicker);
-                    strStock = strTicker;
+                    if (r.exch == "NAS")
+                    {
+                       strsymbol      = r.symbol;
+                       strname        =r.name;
+                        exch = r.type;
                     
+                       stockValue = await GetStockPriceAsync(strsymbol);
+                       stockName = strname;
+
+
+                        if (null == stockValue)
+                        {
+                            stockValue = await GetStockPriceAsync(strname);
+                        }
+                        else
+                        {  //string logo = await GetCompanyLogoAsync(strname);
+                            replyString = string.Format("Symbol: {0}, Name:{1},Value: {2}", strsymbol, strname, stockValue);
+                            
+                        }
+
+                        break;
+                    }
                 }
             }
-
-            // return our reply to the user
-            if (null == stockValue)
+            //////////////////////////////////
+            if (null == stockValue)   // might work with original  search
             {
+                stockValue = await GetStockPriceAsync(strStock);
+            }
+            // return our reply to the user
+            if (null == stockValue)   
+            { 
+                stockName = strStock.ToUpper();
                 replyString = string.Format("Stock {0} is not valid", stockName);
             }
-            else
-            {
-                replyString = string.Format("Stock: {0}, Value: {1}", stockName, stockValue);
-            }
+            //else
+            //{
+            //    stockName = strStock.ToUpper();
+            //    replyString = string.Format("Stock: {0}{1}, Value: {1}", stockName, stockValue);
+            //}
 
             return replyString;
         }
 
+        private static async Task<string> GetCompanyLogoAsync(string name)
+        {
+            LogoObj.Class1 classobj;
+
+            HttpClient client = new HttpClient();
+            string url = await client.GetStringAsync(new Uri("https://autocomplete.clearbit.com/v1/companies/suggest?query=" + name + "&units=metric&APPID=sk_b0026f9a060c16eeea101871873ab952"));
+
+            classobj = JsonConvert.DeserializeObject<LogoObj.Class1>(url);
+            
+            string strstockdomain = classobj.domain;
+            string strstockname = classobj.name;
+            string strstocklogo = classobj.logo;
+
+            return strstocklogo;
+        }
         private static async Task<double?> GetStockPriceAsync(string symbol)
         {
             if (string.IsNullOrWhiteSpace(symbol))
@@ -61,22 +124,22 @@ namespace MyBotApp.ObjController
 
             return null;
         }
-
+       
         private static async Task<string> GetStockTickerName(string strCompanyName)
         {
             string replyString = string.Empty;
             string url = $"http://d.yimg.com/autoc.finance.yahoo.com/autoc?query={strCompanyName}&region=1&lang=en&callback=YAHOO.Finance.SymbolSuggest.ssCallback";
-            string sJson = string.Empty;
+            string x = string.Empty;
             using (WebClient client = new WebClient())
             {
-                sJson = await client.DownloadStringTaskAsync(url).ConfigureAwait(false);
+                x = await client.DownloadStringTaskAsync(url).ConfigureAwait(false);
             }
 
-            sJson = StripJsonString(sJson);
-            YhooCompanyLookup lookup = null;
+            x = StripJsonString(x);
+            StockObj.YhooCompanyLookup lookup = null;
             try
             {
-                lookup = JsonConvert.DeserializeObject<YhooCompanyLookup>(sJson);
+                lookup = JsonConvert.DeserializeObject<StockObj.YhooCompanyLookup>(x);  
             }
             catch (Exception e)
             {
@@ -85,16 +148,19 @@ namespace MyBotApp.ObjController
 
             if (null != lookup)
             {
-                foreach (lResult r in lookup.ResultSet.Result)
+                
+                foreach (StockObj.lResult r in lookup.ResultSet.Result)
                 {
                     if (r.exch == "NAS")
                     {
                         replyString = r.symbol;
+                       
                         break;
                     }
                 }
             }
 
+            
             return replyString;
         }
 
