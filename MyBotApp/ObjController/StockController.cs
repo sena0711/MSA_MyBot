@@ -16,7 +16,7 @@ namespace MyBotApp.ObjController
         {
             string replyString = string.Empty;
             double? stockValue = await StockController.GetStockPriceAsync(strStock);
-
+            string stockName= strStock.ToUpper();
             if (null == stockValue)   // might be a company name rather than a stock ticker name
             {
                 string strTicker = await GetStockTickerName(strStock);
@@ -24,17 +24,18 @@ namespace MyBotApp.ObjController
                 {
                     stockValue = await StockController.GetStockPriceAsync(strTicker);
                     strStock = strTicker;
+                    
                 }
             }
 
             // return our reply to the user
             if (null == stockValue)
             {
-                replyString = string.Format("Stock {0} is not valid", strStock.ToUpper());
+                replyString = string.Format("Stock {0} is not valid", stockName);
             }
             else
             {
-                replyString = string.Format("Stock: {0}, Value: {1}", strStock.ToUpper(), stockValue);
+                replyString = string.Format("Stock: {0}, Value: {1}", stockName, stockValue);
             }
 
             return replyString;
