@@ -115,3 +115,7 @@ F:\Programing\MSA_MyBot\MyBotApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
 F:\Programing\MSA_MyBot\MyBotApp\obj\Debug\MyBotApp.csprojResolveAssemblyReference.cache
 F:\Programing\MSA_MyBot\MyBotApp\obj\Debug\Bot Application1.dll
 F:\Programing\MSA_MyBot\MyBotApp\obj\Debug\Bot Application1.pdb
+F:\Programing\MSA_MyBot\MyBotApp\bin\EntityFramework.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\EntityFramework.SqlServer.dll
+F:\Programing\MSA_MyBot\MyBotApp\bin\EntityFramework.xml
+F:\Programing\MSA_MyBot\MyBotApp\bin\EntityFramework.SqlServer.xml
