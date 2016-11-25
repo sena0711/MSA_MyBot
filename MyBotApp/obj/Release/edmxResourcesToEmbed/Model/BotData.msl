@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BotDataModelStoreContainer" CdmEntityContainer="BotDataEntities">
+    <EntitySetMapping Name="TableDatas">
+      <EntityTypeMapping TypeName="BotDataModel.TableData">
+        <MappingFragment StoreEntitySet="TableData">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="created" ColumnName="created" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="BeSymbol" ColumnName="BeSymbol" />
+          <ScalarProperty Name="BeName" ColumnName="BeName" />
+          <ScalarProperty Name="BeValue" ColumnName="BeValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

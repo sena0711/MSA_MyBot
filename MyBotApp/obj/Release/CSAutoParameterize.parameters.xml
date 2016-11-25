@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="BotDataEntities-Web.config Connection String" description="BotDataEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model.BotData.csdl|res://*/Model.BotData.ssdl|res://*/Model.BotData.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\BotData.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\Programing\\MSA_MyBot\\MyBotApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BotDataEntities']/@connectionString" />
+  </parameter>
+</parameters>

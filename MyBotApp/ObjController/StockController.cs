@@ -45,7 +45,7 @@ namespace MyBotApp.ObjController
 
                 foreach (StockObj.lResult r in lookup.ResultSet.Result)
                 {
-                    if (r.exch == "NAS")
+                    if (r.typeDisp == "Equity")
                     {
                        strsymbol      = r.symbol;
                        strname        =r.name;
